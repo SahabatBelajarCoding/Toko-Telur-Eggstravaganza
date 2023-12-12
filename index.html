@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toko Telur</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  </head>
+  <style>
+    *,
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    }
+  </style>
+  <body class="bg-light">
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg bg-warning shadow-lg fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light fw-bold" href="#">Eggstravaganza</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#produk">Produk</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown link </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#contact">Contat Us</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+    <!-- Carousel start -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner z-n1">
+        <div class="carousel-item active">
+          <img src="src/2.jpg" class="d-block w-100 img-fluid" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Eggstravaganza</h5>
+            <p>Di Mana Setiap Telur Adalah Pilihan Telur Luar Biasa!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="src/1.jpg" class="d-block w-100 img-fluid" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Eggstravaganza</h5>
+            <p>Di Mana Setiap Telur Adalah Pilihan Telur Luar Biasa!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="src/3.jpg" class="d-block w-100 img-fluid" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Eggstravaganza</h5>
+            <p>Di Mana Setiap Telur Adalah Pilihan Telur Luar Biasa!</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Carousel end -->
+    <!-- svg  -->
+    <div>
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#ffc107"
+            fill-opacity="1"
+            d="M0,96L24,106.7C48,117,96,139,144,128C192,117,240,75,288,69.3C336,64,384,96,432,138.7C480,181,528,235,576,224C624,213,672,139,720,90.7C768,43,816,21,864,32C912,43,960,85,1008,122.7C1056,160,1104,192,1152,186.7C1200,181,1248,139,1296,122.7C1344,107,1392,117,1416,122.7L1440,128L1440,0L1416,0C1392,0,1344,0,1296,0C1248,0,1200,0,1152,0C1104,0,1056,0,1008,0C960,0,912,0,864,0C816,0,768,0,720,0C672,0,624,0,576,0C528,0,480,0,432,0C384,0,336,0,288,0C240,0,192,0,144,0C96,0,48,0,24,0L0,0Z"
+          ></path>
+        </svg>
+      </div>
+    </div>
+    <!-- svg -->
+    <!-- About start-->
+    <section id="about">
+      <div class="container pb-5">
+        <div class="row text-center mb-3">
+          <div class="card-header">
+            <h2>Toko Telur Eggstravaganza</h2>
+          </div>
+        </div>
+        <div class="card text-bg-dark">
+          <img src="src/anak-ayam.jpg" class="card-img" alt="..." />
+          <div class="card-img-overlay">
+            <h5 class="card-title">Selamat datang di "Eggstravaganza" - Pengalaman Telur Terbaik!</h5>
+            <p class="card-text">🥚 Nikmati Telur Berkualitas Terbaik 🥚</p>
+
+            <p class="card-text"><small>Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About end -->
+    <!-- svg -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#ffc107"
+        fill-opacity="1"
+        d="M0,224L8.3,197.3C16.6,171,33,117,50,117.3C66.2,117,83,171,99,181.3C115.9,192,132,160,149,128C165.5,96,182,64,199,48C215.2,32,232,32,248,64C264.8,96,281,160,298,160C314.5,160,331,96,348,90.7C364.1,85,381,139,397,186.7C413.8,235,430,277,447,272C463.4,267,480,213,497,165.3C513.1,117,530,75,546,96C562.8,117,579,203,596,229.3C612.4,256,629,224,646,186.7C662.1,149,679,107,695,117.3C711.7,128,728,192,745,224C761.4,256,778,256,794,261.3C811,267,828,277,844,277.3C860.7,277,877,267,894,256C910.3,245,927,235,943,234.7C960,235,977,245,993,213.3C1009.7,181,1026,107,1043,112C1059.3,117,1076,203,1092,224C1109,245,1126,203,1142,160C1158.6,117,1175,75,1192,48C1208.3,21,1225,11,1241,10.7C1257.9,11,1274,21,1291,64C1307.6,107,1324,181,1341,208C1357.2,235,1374,213,1390,208C1406.9,203,1423,213,1432,218.7L1440,224L1440,320L1431.7,320C1423.4,320,1407,320,1390,320C1373.8,320,1357,320,1341,320C1324.1,320,1308,320,1291,320C1274.5,320,1258,320,1241,320C1224.8,320,1208,320,1192,320C1175.2,320,1159,320,1142,320C1125.5,320,1109,320,1092,320C1075.9,320,1059,320,1043,320C1026.2,320,1010,320,993,320C976.6,320,960,320,943,320C926.9,320,910,320,894,320C877.2,320,861,320,844,320C827.6,320,811,320,794,320C777.9,320,761,320,745,320C728.3,320,712,320,695,320C678.6,320,662,320,646,320C629,320,612,320,596,320C579.3,320,563,320,546,320C529.7,320,513,320,497,320C480,320,463,320,447,320C430.3,320,414,320,397,320C380.7,320,364,320,348,320C331,320,314,320,298,320C281.4,320,265,320,248,320C231.7,320,215,320,199,320C182.1,320,166,320,149,320C132.4,320,116,320,99,320C82.8,320,66,320,50,320C33.1,320,17,320,8,320L0,320Z"
+      ></path>
+    </svg>
+    <!-- svg -->
+    <!-- Produk start-->
+    <section id="produk" style="background-color: #ffc107">
+      <div class="container pb-5">
+        <div>
+          <div class="row text-center mb-3">
+            <div class="card-header">
+              <h2 class="text-light">Produk Kami</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="src/chiken-eggs.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Telor Ayam Segar Peternakan Eggstravaganza</h5>
+                <p class="card-text">
+                  Teloq ayam kami memiliki cita rasa yang kaya dan kuat, mencerminkan pola makan alami dan sehat yang dinikmati oleh sahabat-sahabat berbulu kami. Setiap teloq adalah bukti dari perawatan dan dedikasi yang diinvestasikan
+                  oleh peternak-peternak kami, menghasilkan produk unggulan yang unggul baik dalam rasa maupun nilai nutrisi.
+                </p>
+                <button type="button" class="btn btn-warning text-light">Pesan Sekarang</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="src/duck-eggs.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Telor Bebek Pilihan Eggstravaganza</h5>
+                <p class="card-text">
+                  Sambutlah kelezatan unik dari teloq bebek terbaik kami di "Peternakan Eggstravaganza: Teloq Bebek Pilihan." Diambil dari bebek-bebek yang diurus dengan penuh kasih sayang dan di lingkungan yang sesuai dengan kesejahteraan,
+                  teloq bebek kami menawarkan pengalaman berbeda dengan cita rasa yang lezat dan gizi yang kaya.
+                </p>
+                <button type="button" class="btn btn-warning text-light">Pesan Sekarang</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="src/quail-eggs.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Keagunggan dalam Setiap Gigitan Telor puyuh</h5>
+                <p class="card-text">
+                  Dengan ukuran yang lebih kecil dan cangkang yang rapuh, teloq puyuh ini menjadi pilihan sempurna untuk hidangan istimewa dan sentuhan elegan pada sajian Anda. Rasakan kelezatan kuning telur yang kaya dan putih telur yang
+                  lembut, memberikan dimensi baru pada masakan Anda, mulai dari hidangan pembuka hingga salad gourmet.
+                </p>
+                <button type="button" class="btn btn-warning text-light">Pesan Sekarang</button>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Produk End -->
+    <!-- svg -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#ffc107"
+        fill-opacity="1"
+        d="M0,224L14.1,213.3C28.2,203,56,181,85,192C112.9,203,141,245,169,240C197.6,235,226,181,254,176C282.4,171,311,213,339,202.7C367.1,192,395,128,424,85.3C451.8,43,480,21,508,64C536.5,107,565,213,593,245.3C621.2,277,649,235,678,186.7C705.9,139,734,85,762,64C790.6,43,819,53,847,101.3C875.3,149,904,235,932,250.7C960,267,988,213,1016,197.3C1044.7,181,1073,203,1101,186.7C1129.4,171,1158,117,1186,106.7C1214.1,96,1242,128,1271,144C1298.8,160,1327,160,1355,149.3C1383.5,139,1412,117,1426,106.7L1440,96L1440,0L1425.9,0C1411.8,0,1384,0,1355,0C1327.1,0,1299,0,1271,0C1242.4,0,1214,0,1186,0C1157.6,0,1129,0,1101,0C1072.9,0,1045,0,1016,0C988.2,0,960,0,932,0C903.5,0,875,0,847,0C818.8,0,791,0,762,0C734.1,0,706,0,678,0C649.4,0,621,0,593,0C564.7,0,536,0,508,0C480,0,452,0,424,0C395.3,0,367,0,339,0C310.6,0,282,0,254,0C225.9,0,198,0,169,0C141.2,0,113,0,85,0C56.5,0,28,0,14,0L0,0Z"
+      ></path>
+    </svg>
+    <!-- svg -->
+    <!-- Contact Start -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Hubungi Kami</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" />
+              </div>
+              <div class="mb-3">
+                <label for="pesan" class="form-label">Pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-warning text-light">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffc107"
+          fill-opacity="1"
+          d="M0,160L20,170.7C40,181,80,203,120,197.3C160,192,200,160,240,154.7C280,149,320,171,360,160C400,149,440,107,480,85.3C520,64,560,64,600,96C640,128,680,192,720,218.7C760,245,800,235,840,197.3C880,160,920,96,960,106.7C1000,117,1040,203,1080,202.7C1120,203,1160,117,1200,69.3C1240,21,1280,11,1320,32C1360,53,1400,107,1420,133.3L1440,160L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Contact End -->
+    <!-- Footer start -->
+    <footer class="bg-warning text-white text-center pb-5">
+      <p>Created with 💖 by: EdukasiSahabat</a></p>
+    </footer>
+    <!-- Footer end -->
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
